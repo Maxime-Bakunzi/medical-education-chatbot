@@ -4,6 +4,10 @@ Welcome to my Medical Education Chatbot project! This repository contains a doma
 
 ---
 
+[DEMO VIDEO FROM Youtube](https://youtu.be/QNAzgu9f_cI)
+ 
+[THE MODEL STORED IN HUGGING FACE](https://huggingface.co/Maxime-Bakunzi/medical-education-chatbot/tree/main)
+
 ## Table of Contents
 
 - [Medical Education Chatbot](#medical-education-chatbot)
@@ -116,14 +120,11 @@ medical-education-chatbot/
 │
 ├── dataset/
 │   └── medical_dialogues_sampled.csv      # Sampled dataset (10% of full data)
-│
-├── models/
-│   └── t5-medical-education-final/         # Saved fine-tuned model and tokenizer
-│
 ├── logs/
 │   └── evaluation_results.txt             # Evaluation logs and training metrics
 │
-├── gradio_app.py                          # Standalone Gradio UI Python script (loads model from HF)
+├── ui/
+│   └── gradio_app.py                          # Standalone Gradio UI Python script (loads model from HF)
 ├── Medical_Education_Chatbot_Training.ipynb # Jupyter Notebook for training, evaluation, and experiments
 └── README.md                              # This file
 ```
@@ -176,4 +177,3 @@ I extend my sincere thanks to my instructors, peers, and the open-source communi
 ---
 
 Thank you for exploring my Medical Education Chatbot project!
-
