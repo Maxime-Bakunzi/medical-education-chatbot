@@ -8,6 +8,7 @@ Welcome to my Medical Education Chatbot project! This repository contains a doma
  
 [THE MODEL STORED IN HUGGING FACE](https://huggingface.co/Maxime-Bakunzi/medical-education-chatbot/tree/main)
 
+[The Full DATASET FROM Hugging Face](https://huggingface.co/datasets/ruslanmv/ai-medical-chatbot/blob/main/dialogues.parquet)
 ## Table of Contents
 
 - [Medical Education Chatbot](#medical-education-chatbot)
